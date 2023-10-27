@@ -41,7 +41,10 @@ class ColaTest {
     }
     @Test
     void testInt(){
+        // Creacion de la cola
         Cola<Integer> ColaInt = new Cola<>();
+        
+        // Uso de la funcion enqueue para el insertado de las canciones en la cola. */
         ColaInt.enqueue(10);
         ColaInt.enqueue(17);
         ColaInt.enqueue(7);
@@ -51,6 +54,7 @@ class ColaTest {
         System.out.println("Contenido de la Cola: ");
         ColaInt.mostrarContenido();
 
+        // Mostrar el elemento a salir de la Cola, mediante el Dequeue
         System.out.println("Elemento de la Cola en Dequeue: " + ColaInt.dequeue());
         System.out.println(" ");
 
@@ -61,14 +65,17 @@ class ColaTest {
     }
     @Test
     void teststring(){
+        // Creacion de la cola
         Cola<String> ColaString = new Cola<>();
+        
+        // Uso de la funcion enqueue para el insertado de las canciones en la cola. */
         ColaString.enqueue("Pollo");
         ColaString.enqueue("Pajaro");
         ColaString.enqueue("Negro");
         ColaString.enqueue("Unicornio");
         ColaString.enqueue("Targaryen");
 
-
+        // Mostrar el elemento a salir de la Cola, mediante el Dequeue
         System.out.println("Contenido de la Cola: ");
         ColaString.mostrarContenido();
 
