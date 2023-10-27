@@ -34,7 +34,7 @@ public class Cancion<AT1, AT2, AT3, AT4, AT5> implements Comparable<Cancion<AT1,
         this.ans = ans;
     }
 
-    // Implementación del método compareTo para la comparación en árboles binarios
+    // Implementación del método compareTo
     @Override
     public int compareTo(Cancion<AT1, AT2, AT3, AT4, AT5> otraCancion) {
         // Define aquí cómo deseas comparar las canciones en el árbol binario.
